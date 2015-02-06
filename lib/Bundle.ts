@@ -3,7 +3,7 @@ import fs = require("fs");
 import path = require("path");
 import util = require("util");
 import mkdirp = require('mkdirp');
-import Writer = require("Writer");
+import Writer = require("./Writer");
 
 class ModuleDeclarations {
     modules: ts.ModuleDeclaration[] = [];

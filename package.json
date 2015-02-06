@@ -1,6 +1,6 @@
 {
   "name": "ts-transform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transform TypeScript files",
   "main": "index.js",
   "scripts": {
