@@ -1,39 +1,7 @@
 ﻿import ts = require("typescript");
 import Writer = require("./Writer");
 
-//type NodeType = ts.Node | ModuleDeclaration;
-//type ModuleMap = { [name: string]: ModuleDeclaration };
-
 class ModuleDeclaration {
-    //static getModules(srcFiles: string[]): ModuleMap {
-    //    var modules: ModuleMap = {};
-
-    //    var options: ts.CompilerOptions = {
-    //        target: ts.ScriptTarget.Latest,
-    //        module: ts.ModuleKind.None
-    //    };
-
-    //    var host = ts.createCompilerHost(options);
-    //    var program = ts.createProgram(srcFiles, options, host);
-
-    //    srcFiles.forEach(filename => {
-    //        ts.forEachChild(program.getSourceFile(filename), node => {
-    //            if (node.kind === ts.SyntaxKind.ModuleDeclaration) {
-    //                var moduleDeclaration = <ts.ModuleDeclaration>node;
-    //                var moduleName = moduleDeclaration.name.text;
-    //                var moduleDeclarations = modules[moduleName];
-    //                if (!moduleDeclarations) {
-    //                    moduleDeclarations = new ModuleDeclaration(moduleName);
-    //                    modules[moduleName] = moduleDeclarations;
-    //                }
-    //                moduleDeclarations.add(moduleDeclaration);
-    //            }
-    //        });
-    //    });
-
-    //    return modules;
-    //}
-
     constructor(public name: string) {
     }
 
