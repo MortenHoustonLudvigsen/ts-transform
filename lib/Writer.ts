@@ -1,7 +1,9 @@
 ﻿import util = require("util");
 
 class Writer {
-    constructor(private _write: (str: string) => void) { }
+    protected _write(str: string): void {
+        throw new TypeError("Abstract method");
+    }
 
     write(format: any, ...args: any[]): void {
         if (args.length == 0) {

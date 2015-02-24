@@ -30,6 +30,21 @@
     <Content Include="lib\Bundle.js">
       <DependentUpon>Bundle.ts</DependentUpon>
     </Content>
+    <Content Include="lib\Helpers.js">
+      <DependentUpon>Helpers.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\ModuleDeclaration.js">
+      <DependentUpon>ModuleDeclaration.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\ModuleDeclarations.js">
+      <DependentUpon>ModuleDeclarations.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\StringWriter.js">
+      <DependentUpon>StringWriter.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\ToExternal.js">
+      <DependentUpon>ToExternal.ts</DependentUpon>
+    </Content>
     <Content Include="lib\Writer.js.map">
       <DependentUpon>Writer.ts</DependentUpon>
     </Content>
@@ -40,6 +55,21 @@
       <DependentUpon>index.ts</DependentUpon>
     </Content>
     <Content Include=".npmignore" />
+    <Content Include="lib\ToExternal.js.map">
+      <DependentUpon>ToExternal.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\Helpers.js.map">
+      <DependentUpon>Helpers.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\ModuleDeclaration.js.map">
+      <DependentUpon>ModuleDeclaration.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\ModuleDeclarations.js.map">
+      <DependentUpon>ModuleDeclarations.ts</DependentUpon>
+    </Content>
+    <Content Include="lib\StringWriter.js.map">
+      <DependentUpon>StringWriter.ts</DependentUpon>
+    </Content>
     <None Include="LICENSE" />
     <None Include="package.json" />
     <None Include="README.md" />
@@ -51,6 +81,11 @@
   <ItemGroup>
     <TypeScriptCompile Include="index.ts" />
     <TypeScriptCompile Include="lib\Bundle.ts" />
+    <TypeScriptCompile Include="lib\Helpers.ts" />
+    <TypeScriptCompile Include="lib\ModuleDeclaration.ts" />
+    <TypeScriptCompile Include="lib\ModuleDeclarations.ts" />
+    <TypeScriptCompile Include="lib\StringWriter.ts" />
+    <TypeScriptCompile Include="lib\ToExternal.ts" />
     <TypeScriptCompile Include="lib\Writer.ts" />
     <TypeScriptCompile Include="typings\mkdirp\mkdirp.d.ts" />
     <TypeScriptCompile Include="typings\node\node.d.ts" />

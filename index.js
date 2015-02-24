@@ -1,3 +1,3 @@
-var Bundle = require("./lib/Bundle");
-exports.bundle = Bundle.bundle;
+exports.bundle = require("./lib/Bundle");
+exports.toExternal = require("./lib/ToExternal");
 //# sourceMappingURL=index.js.map
